@@ -7,3 +7,7 @@
 MODDIR=${0%/*}
 
 # This script will be executed in post-fs-data mode
+cd /
+# Change size below
+SIZE=67108864
+mount -t tmpfs -o rw,nosuid,nodev,uid=2000,gid=2000,mode=0771,size=${SIZE} tmpfs /data/local/tmp && echo "Mounted tmpfs on /data/local/tmp"

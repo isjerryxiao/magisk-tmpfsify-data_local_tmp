@@ -1,7 +1,11 @@
-# Magisk Installer
+# Tmpfsify /data/local/tmp
 
-**Update `README.md` if you want to submit your module to the online repo!**
+## What does it do
+This module will mount a real tmpfs with a 64MB size to your /data/local/tmp to prolong the lifespan of your flash memory
 
-For more information about how to use this module installer, please refer to [documentations](https://topjohnwu.github.io/Magisk/guides.html)
+## But .. Why?
+Scrcpy writes binary to this location **every time** you start a connection.  
+There are also some apps writing random files to this location.
 
-If you are not familiar with the Markdown syntax, you can start by experimenting on GitHub's online Markdown editor, which will let you preview before publishing. If you need more help, the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) will be handy.
+## Contributing
+* Copyright © 2019 JerryXiao

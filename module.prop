@@ -1,6 +1,6 @@
-id=template
-name=Template Module
-version=v1
-versionCode=1
-author=topjohnwu
-description=A short description
+id=magisk-tmpfsify-data_local_tmp
+name=Tmpfsify /data/local/tmp
+version=v1.0
+versionCode=1000
+author=jerryxiao
+description=Mount a real tmpfs to your /data/local/tmp to prolong the lifespan of your flash memory
